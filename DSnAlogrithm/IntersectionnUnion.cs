@@ -13,7 +13,7 @@ namespace DSnAlogrithm
        /// </summary>
        /// <param name="array1"></param>
        /// <param name="array2"></param>
-        public void FindIntersectionOfTwoSortedArrays(int[] array1, int[] array2)
+        public int[] FindIntersectionOfTwoSortedArrays(int[] array1, int[] array2)
         {
             int lp = 0;
             int rp = 0;
@@ -30,6 +30,8 @@ namespace DSnAlogrithm
                     lp++; rp++;
                 }
             }
+
+            return intersection.ToArray();
         }
 
         /// <summary>
