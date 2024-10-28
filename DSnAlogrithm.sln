@@ -13,6 +13,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "LinkedLists\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{95EB7D58-34AD-40EB-AD9E-032E76E06624}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{B0373CEA-0D0C-4207-8C47-8A221159676C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{EB8D3EF0-43E3-4580-819B-A6597285E564}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{95EB7D58-34AD-40EB-AD9E-032E76E06624}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{95EB7D58-34AD-40EB-AD9E-032E76E06624}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{95EB7D58-34AD-40EB-AD9E-032E76E06624}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0373CEA-0D0C-4207-8C47-8A221159676C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0373CEA-0D0C-4207-8C47-8A221159676C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0373CEA-0D0C-4207-8C47-8A221159676C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0373CEA-0D0C-4207-8C47-8A221159676C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
