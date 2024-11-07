@@ -6,22 +6,20 @@ using System.Threading.Tasks;
 
 namespace Trees
 {
-    internal class LevelOrderTraversal
+    internal class NArryLevelOrder
     {
         /// <summary>
-        /// TC : O(n)
-        /// SC: O(n)
-        /// Level order traversal using Queue
+        /// 
         /// </summary>
         /// <param name="root"></param>
         /// <returns></returns>
-        public IList<IList<int>> LevelOrder(TreeNode root)
+        public IList<IList<int>> LevelOrder(Node root)
         {
             if (root == null)
                 return new List<IList<int>>();
 
             IList<IList<int>> result = new List<IList<int>>();
-            Queue<TreeNode> q = new Queue<TreeNode>();
+            Queue<Node> q = new Queue<Node>();
             q.Enqueue(root);
 
             while (q.Count != 0)
@@ -35,16 +33,11 @@ namespace Trees
                 {
                     var temp = q.Dequeue();
 
-                    subResult.Add(temp.Key);
+                    subResult.Add(temp.val);
 
-                    if (temp.left != null)
+                    foreach (Node child in temp.children)
                     {
-                        q.Enqueue(temp.left);
-                    }
-
-                    if (temp.right != null)
-                    {
-                        q.Enqueue(temp.right);
+                        q.Enqueue(child);
                     }
                 }
 
