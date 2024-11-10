@@ -30,7 +30,7 @@ namespace Trees
                 {
                     var popedNode = queue.Dequeue();
 
-                    temp.Add(popedNode.Key);
+                    temp.Add(popedNode.val);
 
                     if (popedNode.left != null)
                     {

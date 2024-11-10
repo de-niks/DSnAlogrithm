@@ -25,7 +25,7 @@ namespace Trees
                 {
                     if (node.left.left == null && node.left.right == null)
                     {
-                        sum += node.left.Key;
+                        sum += node.left.val;
                     }
 
                     stack.Push(node.left);

@@ -34,7 +34,7 @@ namespace Trees
                 { 
                     var popedNode = queue.Dequeue();
 
-                    subResult.Add(popedNode.Key);
+                    subResult.Add(popedNode.val);
 
                     if(popedNode.left != null)
                     {
@@ -75,7 +75,7 @@ namespace Trees
                 {
                     var popedNode = queue.Dequeue();
 
-                    subResult = popedNode.Key;
+                    subResult = popedNode.val;
 
                     if (popedNode.left != null)
                     {

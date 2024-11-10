@@ -8,12 +8,12 @@ namespace Trees
 {
     public class TreeNode
     {
-        public int Key;
+        public int val;
         public TreeNode left;
         public TreeNode right;
         public TreeNode(int key = 0, TreeNode left = null, TreeNode right = null)
         {
-            this.Key = key;
+            this.val = key;
             this.left = left;
             this.right = right;
         }

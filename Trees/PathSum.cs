@@ -10,47 +10,34 @@ namespace Trees
     {
         public bool HasPathSum(TreeNode root, int targetSum)
         {
-            if(root ==  null)
+            if (root == null)
                 return false;
-            
-            bool slate = false;
-
-            DFS(root , targetSum , slate);
-
-            return slate;
-        }
 
 
-        public void DFS(TreeNode node, int target, bool slate)
-        {
+            targetSum -= root.val;
 
-            target -= node.Key;
-            ///Base Case
-            ///
-            if(node.left == null && node.right == null)
+
+            if (root.left == null && root.right == null)
             {
-                if(target == 0)
-                { 
-                    slate = true;
-                }
-
-                return;
+                return (targetSum == 0);
             }
 
+            bool lflag = false;
+            bool rflag = false;
 
-            ///Recursive Case
-            ///
-            if(node.left != null)
+
+
+            if (root.left != null)
             {
-                DFS(node.left, target, slate);
+                lflag = HasPathSum(root.left, targetSum);
             }
 
-            if (node.right != null)
+            if (root.right != null)
             {
-                DFS(node.right, target, slate);
+                rflag = HasPathSum(root.right, targetSum);
             }
 
-
+            return lflag || rflag;
         }
     }
 }

@@ -20,14 +20,14 @@ namespace Trees
             // Traversal 
             while (current != null)
             {
-                if (current.Key == key)
+                if (current.val == key)
                     throw new Exception("Key already exists");
-                else if (key < current.Key)
+                else if (key < current.val)
                 {
                     previous = current;
                     current = current.left;
                 }
-                else if (key > current.Key)
+                else if (key > current.val)
                 {
                     previous = current;
                     current = current.right;
@@ -35,7 +35,7 @@ namespace Trees
 
             }
 
-            if (key < previous.Key)
+            if (key < previous.val)
             {
                 previous.left = newNode;
             }

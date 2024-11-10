@@ -35,7 +35,7 @@ namespace Trees
                 {
                     var temp = q.Dequeue();
 
-                    subResult.Add(temp.Key);
+                    subResult.Add(temp.val);
 
                     if (temp.left != null)
                     {
