@@ -18,30 +18,48 @@ internal class Program
         //find.TwoSumWithHashTableIndices(new int[] { 3, 4, 5, 6 }, 7);
         //find.TwoSumWithHashTable(arr, 14);
 
-        Sorting sorting = new Sorting();
+       Sorting sorting = new Sorting();
 
         //sorting.IsValidAnagram("pat", "tap");
 
         // int[] a1 = new int[] { 2, 3, 3, 5, 5, 6, 7, 7, 8, 12 };
-         //int[] a2 = new int[] { 5, 5, 6, 8, 8, 9, 10, 10 };
+        //int[] a2 = new int[] { 5, 5, 6, 8, 8, 9, 10, 10 };
 
-         IntersectionnUnion intersectionn = new IntersectionnUnion();
+        //IntersectionnUnion intersectionn = new IntersectionnUnion();
 
 
         // string[] strings = new string[] { "act", "pots", "tops", "cat", "stop", "hat" };
 
         //sorting.GroupAnagrams(strings);
 
-      //  intersectionn.FindIntersectionOfThreeSortedArrays(new int[] { 1, 2, 3, 4, 5 }, new int[] { 1, 2, 5, 7, 9 }, new int[] { 1, 3, 5, 5, 8 });
+        //  intersectionn.FindIntersectionOfThreeSortedArrays(new int[] { 1, 2, 3, 4, 5 }, new int[] { 1, 2, 5, 7, 9 }, new int[] { 1, 3, 5, 5, 8 });
 
-        WaterTrapping waterTrapping = new WaterTrapping();
+        //WaterTrapping waterTrapping = new WaterTrapping();
 
         //waterTrapping.Trap(new int[] { 4, 2, 0, 3, 2, 5 });
 
-        TopKFrequentElements topKFrequentElements = new TopKFrequentElements();
-        topKFrequentElements.TopKFrequent(new int[] { 1, 1, 1, 2, 2, 3 }, 2);
+        // TopKFrequentElements topKFrequentElements = new TopKFrequentElements();
+        // topKFrequentElements.TopKFrequent(new int[] { 1, 1, 1, 2, 2, 3 }, 2);
 
         //topKFrequentElements.TopKFrequent(new int[] { 7,7 }, 1);
+
+        //IntegerToRoman integerToRoman = new IntegerToRoman();
+
+        //integerToRoman.IntToRoman(3749);
+
+        //LC3119_MaxPotHoles  lC3119_MaxPotHoles = new LC3119_MaxPotHoles();
+
+        //lC3119_MaxPotHoles.MaxPotholes("x.x.xxx...x", 14);
+
+        //sorting.IsPalindromeNumberII(1221);
+
+        // sorting.LongestPalindromeI("ababd");
+
+        //00009
+        //00001105
+        //6006
+        //00011
+        sorting.LargestPalindromic("00011");
 
     }
 
