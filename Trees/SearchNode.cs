@@ -13,11 +13,11 @@ namespace Trees
             var current = root;
             while (current != null)
             {
-                if (key == current.Key)
+                if (key == current.val)
                 {
                     return current;
                 }
-                else if (key < current.Key)
+                else if (key < current.val)
                 {
                     current = current.left;
                 }

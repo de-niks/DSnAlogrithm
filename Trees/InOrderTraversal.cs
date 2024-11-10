@@ -30,7 +30,7 @@ namespace Trees
         {
             if (root.left == null && root.right == null)
             {
-                result.Add(root.Key);
+                result.Add(root.val);
                 return;
             }
 
@@ -40,7 +40,7 @@ namespace Trees
 
             }
 
-            result.Add(root.Key);
+            result.Add(root.val);
 
 
             if (root.right != null)

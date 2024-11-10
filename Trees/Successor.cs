@@ -34,9 +34,9 @@ namespace Trees
             TreeNode anscestor = null;
             
             var curr = root;
-            while (curr.Key != p.Key)
+            while (curr.val != p.val)
             {
-                if (p.Key < curr.Key)
+                if (p.val < curr.val)
                 {
                     anscestor = curr;
                     curr = curr.left;

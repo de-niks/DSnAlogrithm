@@ -22,7 +22,7 @@ namespace Trees
                 curr = curr.left;   
             }
 
-            return curr.Key;
+            return curr.val;
         }
     }
 }
