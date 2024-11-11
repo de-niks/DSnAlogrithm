@@ -59,7 +59,10 @@ internal class Program
         //00001105
         //6006
         //00011
-        sorting.LargestPalindromic("00011");
+        //sorting.LargestPalindromic("00011");
+
+        LC315_Count_Number_Smaller_than_self lC315_Count_Number_Smaller_Than_Self = new LC315_Count_Number_Smaller_than_self();
+        lC315_Count_Number_Smaller_Than_Self.CountSmallerI(new int[] { 5, 2, 6, 1 });
 
     }
 

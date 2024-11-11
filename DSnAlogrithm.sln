@@ -11,11 +11,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BinarySearch", "BinarySearc
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LinkedLists", "LinkedLists\LinkedLists.csproj", "{C2748978-05A4-4C26-B60F-C1F28E0E09B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{95EB7D58-34AD-40EB-AD9E-032E76E06624}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SlidingWindow", "SlidingWindow\SlidingWindow.csproj", "{95EB7D58-34AD-40EB-AD9E-032E76E06624}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{B0373CEA-0D0C-4207-8C47-8A221159676C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "DynamicProgramming\DynamicProgramming.csproj", "{B0373CEA-0D0C-4207-8C47-8A221159676C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trees", "Trees\Trees.csproj", "{EB8D3EF0-43E3-4580-819B-A6597285E564}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "Trees\Trees.csproj", "{EB8D3EF0-43E3-4580-819B-A6597285E564}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "Graphs\Graphs.csproj", "{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB8D3EF0-43E3-4580-819B-A6597285E564}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
