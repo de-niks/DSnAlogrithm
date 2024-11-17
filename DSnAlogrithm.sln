@@ -17,7 +17,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DynamicProgramming", "Dynam
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Trees", "Trees\Trees.csproj", "{EB8D3EF0-43E3-4580-819B-A6597285E564}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Graphs", "Graphs\Graphs.csproj", "{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Graphs", "Graphs\Graphs.csproj", "{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Greedy", "Greedy\Greedy.csproj", "{9B55C431-A318-4451-8912-4B8E12F3BD7D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +59,10 @@ Global
 		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CD3A068B-1A8A-44F6-A1EE-A664B83804DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B55C431-A318-4451-8912-4B8E12F3BD7D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B55C431-A318-4451-8912-4B8E12F3BD7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B55C431-A318-4451-8912-4B8E12F3BD7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B55C431-A318-4451-8912-4B8E12F3BD7D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
