@@ -18,7 +18,7 @@ internal class Program
         //find.TwoSumWithHashTableIndices(new int[] { 3, 4, 5, 6 }, 7);
         //find.TwoSumWithHashTable(arr, 14);
 
-       Sorting sorting = new Sorting();
+        // Sorting sorting = new Sorting();
 
         //sorting.IsValidAnagram("pat", "tap");
 
@@ -61,8 +61,15 @@ internal class Program
         //00011
         //sorting.LargestPalindromic("00011");
 
-        LC315_Count_Number_Smaller_than_self lC315_Count_Number_Smaller_Than_Self = new LC315_Count_Number_Smaller_than_self();
-        lC315_Count_Number_Smaller_Than_Self.CountSmallerI(new int[] { 5, 2, 6, 1 });
+        // LC315_Count_Number_Smaller_than_self lC315_Count_Number_Smaller_Than_Self = new LC315_Count_Number_Smaller_than_self();
+        // lC315_Count_Number_Smaller_Than_Self.CountSmallerI(new int[] { 5, 2, 6, 1 });
+
+        // RomanToInteger.RomanToInt("MCMXCIV");
+
+        //FirstMissingPositive.FirstMissingPositiveNumber(new int[] { 3, 4, -1, 1 });
+
+        FirstMissingPositive.MissingNumber(new int[] { 3, 0, 1 });
+
 
     }
 

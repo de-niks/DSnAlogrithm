@@ -18,10 +18,10 @@ namespace Greedy
         {
             int numberOfCoins = 0;
             int remainAmount = amount;
-           
+            Array.Sort(coins);
             foreach (int coin in coins)
             {
-                var quotient = remainAmount/coin;
+                var quotient = remainAmount / coin;
                 numberOfCoins += quotient;
                 remainAmount = remainAmount % coin;
             }
